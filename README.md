@@ -31,7 +31,16 @@ See the tests for an example of how to extend/create custom comparison routines.
 
 Defaults: ```Text::Levenshtein::Damerau```
 
-Set this dynamic variable to control which library 'feq' uses
+Set this dynamic variable to control which library 'feq' uses.  Note that
+for the tests to run, the module `Text::Levenshtein::Damerau` must be
+installed.  If, upon running the tests, you receive this error:
+
+    Dynamic variable $*FEQLIB not found
+
+then you need to install `Text::Levenshtein::Damerau`, for instance via
+`panda`:
+
+    panda intstall Text::Levenshtein::Damerau
 
 ##```$*FEQTHRESHOLD```
 
