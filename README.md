@@ -2,7 +2,7 @@
 
 Provides ```feq``` operator for clean fuzzy string comparisons.
 
-Includes a precanned wrapper for Text::Levenshtein::Damerau (the wrapper uses just the Levenshtein algorithm by default)
+Includes a precanned wrapper for `Text::Levenshtein::Damerau` (the wrapper uses just the Levenshtein algorithm by default).
 
 #Usage
 
